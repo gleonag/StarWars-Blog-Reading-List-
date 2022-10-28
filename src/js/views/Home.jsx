@@ -6,6 +6,7 @@ const Home = () => {
     <div>
       Aqui iran mis tarjetas/
       <Link to="/detal/4">Link a página web</Link>
+     
     </div>
   );
 }
