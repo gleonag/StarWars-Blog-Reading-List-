@@ -1,4 +1,5 @@
 import React, { useState , useEffect } from "react";
+import PeopleContainer from "./PeopleContainer";
 
 const People = () => {
     const [personajes , setPesonajes] = useState ()
@@ -12,7 +13,7 @@ const People = () => {
         setPesonajes = dataJson
     }   
     return {
-        <Containercharacters personajes(personajes)
+        
     }
 }
 export default People;
