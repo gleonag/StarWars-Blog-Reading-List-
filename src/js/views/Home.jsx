@@ -5,7 +5,6 @@ import Characterscontainer from '../component/Characterscontainer.jsx';
 const Home = () => {
   return (
     <div>
-      Aqui iran mis tarjetas/
       <Characterscontainer/>
       <Link to="/detal/4">Link a página web</Link>
      

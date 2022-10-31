@@ -4,9 +4,6 @@ import  {BrowserRouter, Route} from "react-router-dom";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import Home from "../views/Home.jsx";
-import Card from "./Card.jsx";
-
-
 
 //create your first component
 const App = () => {

@@ -9,7 +9,9 @@ const Characterscontainer = () => {
         getPeople().then(response => setPersonajes(response) )
     },[])
   return (
-    <div>~{personajes.map((element) => <Card  nombre={element.name} gender={element.gender} uid={element.uid} url={element.url}/>)}</div>
+    
+    <div> Personajes {personajes.map((element) => <Card key={element.uid} nombre={element.name} url={element.url}/>)}</div>
+    // <div> Planetas </div>
   )
 }
 
